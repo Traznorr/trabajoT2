@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- importante SEO para la etiqueta del navegador -->
+    <title>Proyecto integrador</title>
+
+    <!-- una fuente de Google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet" />
+
+    <!-- una hoja de estilos externa-->
+
+    <!-- una hoja de estilos personalizada-->
+    <link href="modeloCSS.css" rel="stylesheet" />
+    <link rel="stylesheet" href="normalize.css">
+
+    <!-- iconos u otros elementos externos -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- solo aquellos estilos que solo aplican a esta pagina -->
+    <style>
+
+    </style>
+
+    <!-- scripts externos de librerias que usaremos, por ejemplo Bootstrap o JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- scripts externos de desarrollo propio en Javascript o JQuery -->
+    <script src="modeloJS.js"></script>
+
+    <!-- scripts personalizados Javascript o JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="main.js"></script>
+
+</head>
+
+<body>
+    <div class="marco">
+        <div class="encabezado menu-fixed">
+            <nav>
+                <ul>
+                    <li><a onclick="contador()" href="index.html">Inicio</a></li>
+                    <li>
+                        <a href="actualidad.html" onclick="contador()">Actualidad</a>
+                    </li>
+                    <li>
+                        <a href="#Blog" onclick="contador()">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#Tendencias" onclick="contador()">Tendencias</a>
+                    </li>
+                    <li>
+                        <a href="#Contactar" onclick="contador()">Contactar</a>
+                    </li>
+                </ul>
+            </nav>
+            <div id="nVeces"></div>
+            <script></script>
+
+        </div>
+        <div class="cenec">
+            <p>Información del centro:</br>
+                <img src="./img/cenec.jpg" width=50% height=auto /></br>
+
+        </div>
+
+
+        <div class="migas">
+            <ul class="breadcrumb">
+                <li>
+                    <a href="actualidad.html"><i class="fa fa-users usuario"></i></a>
+                </li>
+                <li>
+                    <a href="actualidad.html">Actualidad</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="lado">
+            <div class="menu-vertical">
+                <ul>
+                    <li><a href="index.html">Inicio</a><i class="fa fa-home casa icon"></i></li>
+                    <li><a href="actualidad.html">Actualidad</a><i class="fa fa-users actualidad icon"></i></li>
+                    <li><a href="#">Blog</a><i class="fa fa-twitter blog icon"></i></i></li>
+                    <li><a href="#">Tendencias</a><i class="fa fa-youtube youtube icon"></i></li>
+                    <li><a href="#">Contactar</a><i class="fa fa-at gmail icon"></i></li>
+                </ul>
+            </div>
+        </div>
+        <div class="contenido">
+            <div class="desarrollo2">
+
+
+                <h1 class="titulo2">Los ciberataques más famosos de la historia</h1>
+                <img src="./img/65dcb362250ec9dcca87d264f2ac37f7.jpg">
+                <h2 class="sub-titulo">Fsociety</h2>
+                <h3>Sony Pictures Entertainment (2014)</h3>
+                <p>
+                    Más ciberataques para Sony. Seguro que te acuerdas de cuando el autodenominado grupo “Guardianes
+                    de la paz” filtró la película “The Interview” sobre el máximo dirigente de Corea del Norte. Se
+                    amenazó con que, si se estrenaba la película en cines, se realizarían acciones terroristas.
+                    Nunca sucedió nada.
+
+                    Sin embargo, los hackers no simplemente filtraron la película. También tuvieron acceso a
+                    información sobre empleados de Sony Pictures Entertainment, e-mails confidenciales, direcciones
+                    e información financiera. ¡Incluso los informes médicos de varias estrellas de Hollywood!</p>
+
+                <h3>Epsilon (2011)</h3>
+                <p> Estamos ante uno de los ciberataques más caros de la historia de Internet. Epsilon, el mayor
+                    proveedor de servicios de marketing a nivel mundial, recibió una serie de ataques que costaron
+                    en torno a los tres mil millones de dólares. Los objetivos de los hackers eran cuentas de correo
+                    electrónico con fines criminales.</p>
+
+                <h3>Heartbleed (2012-2014)</h3>
+                <p>
+                    Esto fue un ciberataque a medias. Hay que dejar claro que Heartbleed no fue un virus, sino un
+                    Bug que por error fue escrito en OpenSSL. Esta brecha de seguridad fue descubierta por un rápido
+                    grupo de hackers que aprovechó para conseguir información.
+
+                    El error permitió que diversos hackers tuvieran acceso a e-mails y conversaciones privadas de
+                    usuarios. Pasaron alrededor de dos años hasta que el Bug fue finalmente detectado en 2014 por
+                    Google Security. Más vale tarde que nunca, ¿no?</p>
+                </p>
+                <h3>Opinion</h3>
+                <p>Es increíble los retos y las hazañas que pueden llegar a conseguir ciertas personas y grupos. Son
+                    increíbles. Pero estaría mejor que dedicasen esas cualidades a ayudar y arreglar este mundo.</p>
+
+            </div>
+
+
+        </div>
+
+        <footer>
+            <div class="pie">
+                <div>&copy; 2021 <a href="#email" target="_blank">Guzmán Fakhouri</a></div>
+            </div>
+        </footer>
+
+
+    </div>
+    <script src="modeloJS.js"></script>
+</body>
+
+</html>
